@@ -2,6 +2,12 @@
 
 Unix commands and windows commands shell in one
 
+_Important:Make sure you have wsl installed on windows and open the environemt before running. Linux no problem :)_
+
+## Run
+
+    ./a.out
+
 ## Commands you can use:
 
     help

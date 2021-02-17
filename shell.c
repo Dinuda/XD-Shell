@@ -20,7 +20,7 @@ void init_shell()
     clear();
     printf("\n\n\n\n******************"
            "************************");
-    printf("\n\n\n\t****MY SHELL****");
+    printf("\n\n\n\t****XD SHELL****");
     printf("\n\n\t-USE AT YOUR OWN RISK-");
     printf("\n\n\n\n*******************"
            "***********************");
@@ -160,9 +160,7 @@ void openHelp()
          "\n>cd"
          "\n>ls"
          "\n>exit"
-         "\n>all other general commands available in UNIX shell"
-         "\n>pipe handling"
-         "\n>improper space handling");
+         "\n>all other general commands available in UNIX");
 
     return;
 }
@@ -201,8 +199,7 @@ int ownCmdHandler(char **parsed)
         return 1;
     case 4:
         username = getenv("USER");
-        printf("\nHello %s.\nMind that this is "
-               "not a place to play around."
+        printf("\nHello %s."
                "\nUse help to know more..\n",
                username);
         return 1;
